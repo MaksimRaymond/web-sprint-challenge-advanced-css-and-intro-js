@@ -207,6 +207,13 @@ const artists = [
 
 (1) Name of the first artist (0th index) in the array
 (2) Bio of the third artist (2nd index) in the array */
+// function getArtistByIndex(arr, index){
+//   let artistName=arr[index];
+//    return artistName
+// }
+// console.log(getArtistByIndex(artists, 0))
+console.log(artists[0].name)
+console.log(artists[2].bio)
 
 
 
@@ -222,8 +229,12 @@ const artists = [
  * For example, if getArtistByIndex is invoked with the artists dataset and the number 0,
  * it will return `The artist at index 0 is Amedeo Modigliani`.
 */
-function getArtistByIndex(array, index) {
-    /* code here */
+
+  function getArtistByIndex(arr, index) {
+    return `The artist at index ${i} is ${arr[index].name}`
+   }
+   console.log(getArtistByIndex(artists, 3))
+   
   }
   
   /**
